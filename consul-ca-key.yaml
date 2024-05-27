@@ -1,0 +1,13 @@
+apiVersion: v1
+data:
+  tls.key: LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSU14K1V3WThySURRditXNUdOY1V6WUc1NGRjOVVGN1hLK2NkYzVYblFjUlNvQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFZ2QyUDdGaXA0Y2IzazFIWlMwaWdTZmpoVlU1cnA5ZzdmWllUUml3KzEwY2VzM2xEK3BEZQpidFhSZlNYWGN1NEhZSDNRdUI3ellwMmZhUWRTYkpsczlRPT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQo=
+kind: Secret
+metadata:
+  creationTimestamp: "2024-05-22T17:37:38Z"
+  labels:
+    managed-by: consul-k8s
+  name: consul-ca-key
+  namespace: consul
+  resourceVersion: "6060457"
+  uid: 290e5f83-e657-4f92-8ba2-f03a0a33b1f1
+type: Opaque
